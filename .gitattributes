@@ -1,0 +1,29 @@
+# Check out text files with LF everywhere. Windows worktrees otherwise get CRLF
+# Rust/Cargo inputs, and the native library reuse check compares them byte for byte.
+* text=auto eol=lf
+
+# Windows command scripts keep CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.jar binary
+*.apk binary
+*.aab binary
+*.so binary
+*.a binary
+*.dll binary
+*.dylib binary
+*.tflite binary
+
+# Preserve the reviewed source-distribution bytes and its manifest.
+THIRD_PARTY_LICENSES/rust/generic-array-0.14.9/LICENSE -text
+apps/vault/android/gradlew.bat -text
+apps/wallet/android/gradlew.bat -text

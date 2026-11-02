@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FCW NFC Probe</string>
+    <string name="servicedesc">FCW Offline Vault NFC HCE Service</string>
+    <string name="aiddesc">FCW Custom Secure Protocol AID</string>
+</resources>

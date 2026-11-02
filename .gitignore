@@ -1,0 +1,33 @@
+# Local tool metadata
+.agents/
+
+# Build artifacts
+target/
+build/
+tools/*/target/
+.dart_tool/
+*.pyc
+__pycache__/
+.kotlin/
+apps/*/android/app/src/main/jniLibs/
+tools/*/android/app/src/main/jniLibs/
+
+# Machine-specific files that Flutter and Gradle regenerate
+**/android/local.properties
+**/.flutter-plugins-dependencies
+**/GeneratedPluginRegistrant.java
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Signing material and local agent state never belong in git
+key.properties
+*.jks
+*.keystore
+.omc/
+.octo-continue.md

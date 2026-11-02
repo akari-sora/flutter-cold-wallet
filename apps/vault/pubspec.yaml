@@ -1,0 +1,28 @@
+name: vault
+description: Dedicated offline cold wallet signer (com.coldwallet.vault). Strictly zero network permission.
+version: 1.2.1+10
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+  flutter: ">=3.29.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.1.2
+  public_models:
+    path: ../../packages/public_models
+  design_system:
+    path: ../../packages/design_system
+  qr_ui:
+    path: ../../packages/qr_ui
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mobile_scanner: 7.4.2
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Mobile Cold Wallet NFC Probe: Strictly offline, no INTERNET permission -->
+    <application>
+        <!-- Debug-only automation controller (source and manifest entry exist only in the debug source set).
+             - Framework: android:permission=DUMP is checked when a caller acquires the provider.
+             - Provider: call() re-checks the real Binder caller (debuggable + DUMP + UID 2000/0)
+               because ContentProvider.call() is not covered by read/write permission enforcement. -->
+        <provider
+            android:name=".TestControlProvider"
+            android:authorities="com.mobilecoldwallet.nfc_probe.testcontrol"
+            android:exported="true"
+            android:permission="android.permission.DUMP" />
+    </application>
+</manifest>

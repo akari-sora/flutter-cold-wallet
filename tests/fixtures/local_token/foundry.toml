@@ -1,0 +1,5 @@
+[profile.default]
+src = "."
+out = "../../../target/local-token"
+cache_path = "../../../target/local-token-cache"
+solc = "0.8.28"

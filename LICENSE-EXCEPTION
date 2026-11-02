@@ -1,0 +1,27 @@
+Additional permission under GNU AGPL version 3 section 7
+========================================================
+
+This file is part of FCW Wallet / Vault, which is licensed under the GNU
+Affero General Public License, version 3 or (at your option) any later
+version (see LICENSE). The following additional permission applies to the
+whole program, including every crate, package and app in this repository.
+
+If you modify this Program, or any covered work, by linking or combining it
+with Google ML Kit Barcode Scanning or Google Play services libraries (or a
+modified version of those libraries), containing parts covered by the terms
+of the Google APIs Terms of Service or the license terms that Google
+distributes with those libraries, the licensors of this Program grant you
+additional permission to convey the resulting work.
+
+The libraries meant here are the ones the `mobile_scanner` Flutter plugin
+pulls into the Android and iOS apps, for example
+`com.google.mlkit:barcode-scanning`,
+`com.google.android.gms:play-services-mlkit-barcode-scanning` and the
+`GoogleMLKit/BarcodeScanning` CocoaPod, together with the Google Play
+services and ML Kit libraries they depend on.
+
+This permission does not extend to any other non-free library, and it does
+not relax any other condition of the GNU AGPL for the parts of the work that
+are covered by it. If you modify this Program, you may extend this
+additional permission to your version, but you are not obliged to do so; if
+you do not wish to, delete this permission notice from your version.

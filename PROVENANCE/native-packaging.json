@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "source_commit": "8352361278a60e92d588070788724dc197cd6713",
+  "tool": "Android NDK 28.2.13676358 llvm-strip --strip-unneeded",
+  "tool_sha256": "438848c3cb13a8fa7607507779465f3e3426637eb2e9c605cde44e49c8539f1f",
+  "tool_version": "llvm-strip, compatible with GNU strip",
+  "libraries": [
+    {
+      "app": "vault",
+      "abi": "arm64-v8a",
+      "source_path": "apps/vault/android/app/src/main/jniLibs/arm64-v8a/libvault_ffi.so",
+      "source_sha256": "bf4ea2a8da893df318aa9555250c0a5ebb8080a61f06b310919cd13ffcf8929c",
+      "stripped_sha256": "d3416ae34f495b5230c903b7c28ab0f5b3f8cb176720904a73dbeb38683dbfdc",
+      "outputs": {
+        "appsign": {
+          "entry": "lib/arm64-v8a/libvault_ffi.so",
+          "sha256": "d3416ae34f495b5230c903b7c28ab0f5b3f8cb176720904a73dbeb38683dbfdc",
+          "report_sha256": "d3416ae34f495b5230c903b7c28ab0f5b3f8cb176720904a73dbeb38683dbfdc",
+          "matches": true
+        },
+        "upload": {
+          "entry": "base/lib/arm64-v8a/libvault_ffi.so",
+          "sha256": "d3416ae34f495b5230c903b7c28ab0f5b3f8cb176720904a73dbeb38683dbfdc",
+          "report_sha256": "d3416ae34f495b5230c903b7c28ab0f5b3f8cb176720904a73dbeb38683dbfdc",
+          "matches": true
+        }
+      }
+    },
+    {
+      "app": "vault",
+      "abi": "x86_64",
+      "source_path": "apps/vault/android/app/src/main/jniLibs/x86_64/libvault_ffi.so",
+      "source_sha256": "ce95e75cf027be6a1a03f7f97525eafef27be29b1a359f7025193c6cad798db7",
+      "stripped_sha256": "06ad9966b9a204e00a9ca90df452f7fe5a35d6e91b80f051e526634ead34ab2c",
+      "outputs": {
+        "appsign": {
+          "entry": "lib/x86_64/libvault_ffi.so",
+          "sha256": "06ad9966b9a204e00a9ca90df452f7fe5a35d6e91b80f051e526634ead34ab2c",
+          "report_sha256": "06ad9966b9a204e00a9ca90df452f7fe5a35d6e91b80f051e526634ead34ab2c",
+          "matches": true
+        },
+        "upload": {
+          "entry": "base/lib/x86_64/libvault_ffi.so",
+          "sha256": "06ad9966b9a204e00a9ca90df452f7fe5a35d6e91b80f051e526634ead34ab2c",
+          "report_sha256": "06ad9966b9a204e00a9ca90df452f7fe5a35d6e91b80f051e526634ead34ab2c",
+          "matches": true
+        }
+      }
+    },
+    {
+      "app": "wallet",
+      "abi": "arm64-v8a",
+      "source_path": "apps/wallet/android/app/src/main/jniLibs/arm64-v8a/libwallet_ffi.so",
+      "source_sha256": "1e75c40670e59159a3ec0d00c1d47d10c3d2c48150f0daf44040d4b599ce7ff9",
+      "stripped_sha256": "d4fba11b801d4c181a401b5396094993b3d08ce7c160b78466bdcfc3e993a673",
+      "outputs": {
+        "appsign": {
+          "entry": "lib/arm64-v8a/libwallet_ffi.so",
+          "sha256": "d4fba11b801d4c181a401b5396094993b3d08ce7c160b78466bdcfc3e993a673",
+          "report_sha256": "d4fba11b801d4c181a401b5396094993b3d08ce7c160b78466bdcfc3e993a673",
+          "matches": true
+        },
+        "upload": {
+          "entry": "base/lib/arm64-v8a/libwallet_ffi.so",
+          "sha256": "d4fba11b801d4c181a401b5396094993b3d08ce7c160b78466bdcfc3e993a673",
+          "report_sha256": "d4fba11b801d4c181a401b5396094993b3d08ce7c160b78466bdcfc3e993a673",
+          "matches": true
+        }
+      }
+    },
+    {
+      "app": "wallet",
+      "abi": "x86_64",
+      "source_path": "apps/wallet/android/app/src/main/jniLibs/x86_64/libwallet_ffi.so",
+      "source_sha256": "4d971c1cd93ac50d7f3bc9d6ca35e45958560be0e60b04a5e634cba86618d6ae",
+      "stripped_sha256": "2eb58006887478a5966dfa4e5ee3d8112ad6f285b6640543a8d12c2053cbf827",
+      "outputs": {
+        "appsign": {
+          "entry": "lib/x86_64/libwallet_ffi.so",
+          "sha256": "2eb58006887478a5966dfa4e5ee3d8112ad6f285b6640543a8d12c2053cbf827",
+          "report_sha256": "2eb58006887478a5966dfa4e5ee3d8112ad6f285b6640543a8d12c2053cbf827",
+          "matches": true
+        },
+        "upload": {
+          "entry": "base/lib/x86_64/libwallet_ffi.so",
+          "sha256": "2eb58006887478a5966dfa4e5ee3d8112ad6f285b6640543a8d12c2053cbf827",
+          "report_sha256": "2eb58006887478a5966dfa4e5ee3d8112ad6f285b6640543a8d12c2053cbf827",
+          "matches": true
+        }
+      }
+    }
+  ],
+  "limitations": "Matches this local strip reproduction and signed zip entries; not a full binary reproducibility claim."
+}

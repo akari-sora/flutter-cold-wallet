@@ -1,0 +1,15 @@
+{
+  "description": "Public-only response from an isolated disposable native CSPRNG test vault. No mnemonic or signing material is retained.",
+  "account": {
+    "address": "0x1F94AB1673e24d000D51493FE86d723D9FDc0A30",
+    "compressed_pubkey_hex": "025badc135bcb98eae9f8e031e0f3cd1c7e9a7dfcedccc0b1cddb3765fd11da6d6",
+    "derivation_path": "m/44'/60'/0'/0/0",
+    "master_fingerprint": "f4ba9382"
+  },
+  "requestId": "7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a7a",
+  "sessionId": "fixture-original-session",
+  "unsignedPayload": "ec0184773594008252089470997970c51812dc3a010c7d01b50e0d17dc79c8867048860ddf798083aa36a78080",
+  "signatureUr": "ur:eth-signature/taadmootadtpdagdknknknknknknknknknknknknknknknknaohdfpvwvthesoimtitsgamhqdfrgmhfaytndrmuykpsgogwvyrnlsbtdrzslghgdpmenylbtevwlaasnsmdrkgatplrjkhdmwpresfrlddiesoxckjogmvdzolnwekigmfhtlcwaxjegtjlidinjzihhfhskpjzjytpdwwmsp",
+  "signedRaw": "0xf86d0184773594008252089470997970c51812dc3a010c7d01b50e0d17dc79c8867048860ddf79808401546d71a0e5e05fc96ad0d74990b33b525608da2a93f5ac554fe1be830d2afa8d572d919aa07fd3e580099c95bb49d884735894b2393b892739a41e7052e7fb86ed7d523fd5",
+  "hash": "0x2fc7857df3650b54b0a5f5bc7cc0a57c2af50ebe2fcef35d80400d1e7c0adece"
+}

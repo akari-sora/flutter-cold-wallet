@@ -1,0 +1,275 @@
+{
+  "status": "PASS",
+  "rust_input_count": 48,
+  "native_library_count": 4,
+  "mismatches": [],
+  "inputs": [
+    {
+      "path": "Cargo.lock",
+      "sha256": "920fc41f3bba41d1045576986ca4b9321d250c7d27c0b976a0443d73f314b459",
+      "r24_sha256": "920fc41f3bba41d1045576986ca4b9321d250c7d27c0b976a0443d73f314b459"
+    },
+    {
+      "path": "Cargo.toml",
+      "sha256": "8158dea0682cf4273dde9a5c3d3f9db9ceb18b01d16f20ed2a81f198c5944cb2",
+      "r24_sha256": "8158dea0682cf4273dde9a5c3d3f9db9ceb18b01d16f20ed2a81f198c5944cb2"
+    },
+    {
+      "path": "crates/nfc_protocol/Cargo.toml",
+      "sha256": "f8bf6258312401cabfbc2cbfae717c21e64631ddb29a92196a064300a1b19042",
+      "r24_sha256": "f8bf6258312401cabfbc2cbfae717c21e64631ddb29a92196a064300a1b19042"
+    },
+    {
+      "path": "crates/nfc_protocol/src/lib.rs",
+      "sha256": "cdd77d9b011c15c1e5f2d5749f436352b6f8af409aba4c69898aff3a122c579c",
+      "r24_sha256": "cdd77d9b011c15c1e5f2d5749f436352b6f8af409aba4c69898aff3a122c579c"
+    },
+    {
+      "path": "crates/nfc_protocol/tests/regression_a8105885.rs",
+      "sha256": "f7cf87c9b1d165281cc82ee485c253b30048d903545ea262082f9cf64aef1802",
+      "r24_sha256": "f7cf87c9b1d165281cc82ee485c253b30048d903545ea262082f9cf64aef1802"
+    },
+    {
+      "path": "crates/nfc_protocol/tests/strict_entry.rs",
+      "sha256": "a27e46f406d9da754f0cb671b33886f3123bc500598419e3d824f903905730ef",
+      "r24_sha256": "a27e46f406d9da754f0cb671b33886f3123bc500598419e3d824f903905730ef"
+    },
+    {
+      "path": "crates/public_core/Cargo.toml",
+      "sha256": "c6d3e9a99abcf7f69111f3434ca1c6f215607347ad6b883ef90eedac0365031b",
+      "r24_sha256": "c6d3e9a99abcf7f69111f3434ca1c6f215607347ad6b883ef90eedac0365031b"
+    },
+    {
+      "path": "crates/public_core/src/address.rs",
+      "sha256": "57c12ec14b83ee034c720e8f90a59989ef589f5cc4aafad185a54f1722dcec31",
+      "r24_sha256": "57c12ec14b83ee034c720e8f90a59989ef589f5cc4aafad185a54f1722dcec31"
+    },
+    {
+      "path": "crates/public_core/src/bitcoin.rs",
+      "sha256": "55a06ec1093a7516fb7c1140d4b26c62c91a88ec39aa8d47aa82f3edbaa3f960",
+      "r24_sha256": "55a06ec1093a7516fb7c1140d4b26c62c91a88ec39aa8d47aa82f3edbaa3f960"
+    },
+    {
+      "path": "crates/public_core/src/eip712.rs",
+      "sha256": "3821133721fbff95a4258463d15b662780d144a6059b51b74c3f049fb7441a62",
+      "r24_sha256": "3821133721fbff95a4258463d15b662780d144a6059b51b74c3f049fb7441a62"
+    },
+    {
+      "path": "crates/public_core/src/error.rs",
+      "sha256": "55abac7c5dab0a25105a0d8c8627d3ea824f12f53f384a97c461195f984ebe35",
+      "r24_sha256": "55abac7c5dab0a25105a0d8c8627d3ea824f12f53f384a97c461195f984ebe35"
+    },
+    {
+      "path": "crates/public_core/src/evm.rs",
+      "sha256": "916969c2241d1b07c28615f79aa34c6e8c073712f795695e077eca12231bd606",
+      "r24_sha256": "916969c2241d1b07c28615f79aa34c6e8c073712f795695e077eca12231bd606"
+    },
+    {
+      "path": "crates/public_core/src/lib.rs",
+      "sha256": "ec42e6182f46f1e58cd4c69131cfa4a1e0a44566e2c805205eb214c2b44005fb",
+      "r24_sha256": "ec42e6182f46f1e58cd4c69131cfa4a1e0a44566e2c805205eb214c2b44005fb"
+    },
+    {
+      "path": "crates/public_core/src/policy.rs",
+      "sha256": "89c628740b8a0c06b991c5bf19f3e9c2ab6ef20473bb89549a6a6329cc0e146c",
+      "r24_sha256": "89c628740b8a0c06b991c5bf19f3e9c2ab6ef20473bb89549a6a6329cc0e146c"
+    },
+    {
+      "path": "crates/public_core/src/rlp.rs",
+      "sha256": "1a639b0b61678a2307864a0b7fa6f2a99b489198f17d25e63be5eead38b4d9ec",
+      "r24_sha256": "1a639b0b61678a2307864a0b7fa6f2a99b489198f17d25e63be5eead38b4d9ec"
+    },
+    {
+      "path": "crates/public_core/src/verify.rs",
+      "sha256": "77cf7084c7726c0d345d6d95b9dbf52ba8e221428a5a781451b5c8861cdd207f",
+      "r24_sha256": "77cf7084c7726c0d345d6d95b9dbf52ba8e221428a5a781451b5c8861cdd207f"
+    },
+    {
+      "path": "crates/public_core/tests/canonical_roundtrip.rs",
+      "sha256": "eeab99a4c053124bcf998311fa07e933524d3bd517fd8b082e1534379476f35a",
+      "r24_sha256": "eeab99a4c053124bcf998311fa07e933524d3bd517fd8b082e1534379476f35a"
+    },
+    {
+      "path": "crates/public_core/tests/erc20_native_value.rs",
+      "sha256": "c01f5be9378aa3809c83eccc76fdca1b38fa5a5c9beaef1f7864b45e1120690c",
+      "r24_sha256": "c01f5be9378aa3809c83eccc76fdca1b38fa5a5c9beaef1f7864b45e1120690c"
+    },
+    {
+      "path": "crates/public_core/tests/evm_tests.rs",
+      "sha256": "c58051ad901f6b26eb7d885a8a558d6739700349b939e99201c460266872c45f",
+      "r24_sha256": "c58051ad901f6b26eb7d885a8a558d6739700349b939e99201c460266872c45f"
+    },
+    {
+      "path": "crates/public_core/tests/sepolia_gas_floor.rs",
+      "sha256": "7eef717a3238085856ca9c6547a0ef3e89adebd8a221517f5e44f35c2119bd58",
+      "r24_sha256": "7eef717a3238085856ca9c6547a0ef3e89adebd8a221517f5e44f35c2119bd58"
+    },
+    {
+      "path": "crates/public_core/tests/type2_access_list.rs",
+      "sha256": "166c937dd540b93eee5c13f0a97f2f1ae56b19e9798986c6fe7385b50d7f9473",
+      "r24_sha256": "166c937dd540b93eee5c13f0a97f2f1ae56b19e9798986c6fe7385b50d7f9473"
+    },
+    {
+      "path": "crates/signer_router/Cargo.toml",
+      "sha256": "e6b2692b0e7b2e7a5359de10a9bcb6e8f1a5f94f9128774f7ddce2536e790982",
+      "r24_sha256": "e6b2692b0e7b2e7a5359de10a9bcb6e8f1a5f94f9128774f7ddce2536e790982"
+    },
+    {
+      "path": "crates/signer_router/src/lib.rs",
+      "sha256": "8ab52cf60a691b59b521c23420341ce118ce46c725c400273554b3a1720f2979",
+      "r24_sha256": "8ab52cf60a691b59b521c23420341ce118ce46c725c400273554b3a1720f2979"
+    },
+    {
+      "path": "crates/ur_adapter/Cargo.toml",
+      "sha256": "46f943ceb5e6644d1bb43d7cf5848dee57f22f79de105eb094272e4de329a33c",
+      "r24_sha256": "46f943ceb5e6644d1bb43d7cf5848dee57f22f79de105eb094272e4de329a33c"
+    },
+    {
+      "path": "crates/ur_adapter/src/bounded_cbor.rs",
+      "sha256": "10acd35f5a21967992f01d371cc34cfaa80a2ae5f127447b2c167aee0d2d4609",
+      "r24_sha256": "10acd35f5a21967992f01d371cc34cfaa80a2ae5f127447b2c167aee0d2d4609"
+    },
+    {
+      "path": "crates/ur_adapter/src/crypto_keypath.rs",
+      "sha256": "3d8273bbed91912013c85fd0cc8d0a5f8f14a3631be6b4901abe97dc9eccc01a",
+      "r24_sha256": "3d8273bbed91912013c85fd0cc8d0a5f8f14a3631be6b4901abe97dc9eccc01a"
+    },
+    {
+      "path": "crates/ur_adapter/src/crypto_multi_accounts.rs",
+      "sha256": "4c8aaeb5bfc3e23fbd5b00fbf94ce2798d6bba7b91b144a78bef07dffaf95a68",
+      "r24_sha256": "4c8aaeb5bfc3e23fbd5b00fbf94ce2798d6bba7b91b144a78bef07dffaf95a68"
+    },
+    {
+      "path": "crates/ur_adapter/src/crypto_psbt.rs",
+      "sha256": "17328ca0e1e755ee94a05ee83e6379a9051103b21209c915b0354ec5d87b5a2d",
+      "r24_sha256": "17328ca0e1e755ee94a05ee83e6379a9051103b21209c915b0354ec5d87b5a2d"
+    },
+    {
+      "path": "crates/ur_adapter/src/error.rs",
+      "sha256": "12d3711ada9d55b9176bcc2a42c5851b725a298037225b22ad79d2d5afebfb52",
+      "r24_sha256": "12d3711ada9d55b9176bcc2a42c5851b725a298037225b22ad79d2d5afebfb52"
+    },
+    {
+      "path": "crates/ur_adapter/src/eth_sign_request.rs",
+      "sha256": "e488b027699708b3b473584fb0b81ae2d0f7cbe951ac7499294a0936633eb90e",
+      "r24_sha256": "e488b027699708b3b473584fb0b81ae2d0f7cbe951ac7499294a0936633eb90e"
+    },
+    {
+      "path": "crates/ur_adapter/src/eth_signature.rs",
+      "sha256": "74197eafc855d23be6ba99138bd7c650752a616ad73651891da602f59c799ca5",
+      "r24_sha256": "74197eafc855d23be6ba99138bd7c650752a616ad73651891da602f59c799ca5"
+    },
+    {
+      "path": "crates/ur_adapter/src/ffi_decode.rs",
+      "sha256": "a9f7c344fe434729dc10dd9e4edcf83dcba328ebeb39d601fc2fb0680f3082e4",
+      "r24_sha256": "a9f7c344fe434729dc10dd9e4edcf83dcba328ebeb39d601fc2fb0680f3082e4"
+    },
+    {
+      "path": "crates/ur_adapter/src/fountain.rs",
+      "sha256": "070e185e448f521b6605eb6facd407db04f49a7b55f0e6e37309d9c83e000400",
+      "r24_sha256": "070e185e448f521b6605eb6facd407db04f49a7b55f0e6e37309d9c83e000400"
+    },
+    {
+      "path": "crates/ur_adapter/src/lib.rs",
+      "sha256": "ad795e6baf3b534c8ad39f986076e29ac4bf73c9fc514ce4603921f96a7332e0",
+      "r24_sha256": "ad795e6baf3b534c8ad39f986076e29ac4bf73c9fc514ce4603921f96a7332e0"
+    },
+    {
+      "path": "crates/ur_adapter/tests/bounded_cbor_adversarial.rs",
+      "sha256": "0b395fa1ac80ddf902d9b3db3be412e733cbb15a8e055ed5a39ce16fa704d2c3",
+      "r24_sha256": "0b395fa1ac80ddf902d9b3db3be412e733cbb15a8e055ed5a39ce16fa704d2c3"
+    },
+    {
+      "path": "crates/ur_adapter/tests/bounded_fountain.rs",
+      "sha256": "9a7f9798cbc972c8e7d6e039361a0e4514e65db8946d3755f98c025f0e202d07",
+      "r24_sha256": "9a7f9798cbc972c8e7d6e039361a0e4514e65db8946d3755f98c025f0e202d07"
+    },
+    {
+      "path": "crates/ur_adapter/tests/fountain_robustness.rs",
+      "sha256": "c2ed431c8a86fe15f38931c1f454aedf829ab89582c633e790fbbb5ca064b8a5",
+      "r24_sha256": "c2ed431c8a86fe15f38931c1f454aedf829ab89582c633e790fbbb5ca064b8a5"
+    },
+    {
+      "path": "crates/ur_adapter/tests/keystone_vectors.rs",
+      "sha256": "f3c2de787fc07e08485a1be86b786fa7ad66377ca7629f47c44886312d075e82",
+      "r24_sha256": "f3c2de787fc07e08485a1be86b786fa7ad66377ca7629f47c44886312d075e82"
+    },
+    {
+      "path": "crates/ur_adapter/tests/public_capacity.rs",
+      "sha256": "e4f0aeccb6f95eccf17c554bda479022deb5c293a0b2217296f0083a4f6db0b2",
+      "r24_sha256": "e4f0aeccb6f95eccf17c554bda479022deb5c293a0b2217296f0083a4f6db0b2"
+    },
+    {
+      "path": "crates/ur_adapter/tests/public_incremental_sessions.rs",
+      "sha256": "b1be3bb270d7a63a3ea4cd2225ef6c1a299c792a16001baefc0bd31ead4a56fe",
+      "r24_sha256": "b1be3bb270d7a63a3ea4cd2225ef6c1a299c792a16001baefc0bd31ead4a56fe"
+    },
+    {
+      "path": "crates/vault_core/Cargo.toml",
+      "sha256": "e79e43d93e41c72d951392d9ec2b88f2c3a5e3b7f670ee6fc102299a30cd64d9",
+      "r24_sha256": "e79e43d93e41c72d951392d9ec2b88f2c3a5e3b7f670ee6fc102299a30cd64d9"
+    },
+    {
+      "path": "crates/vault_core/src/lib.rs",
+      "sha256": "c7cdb7757b8b0cb1d30a915255f7dd6c88a2044cc9f4d0103ab047d17487742c",
+      "r24_sha256": "c7cdb7757b8b0cb1d30a915255f7dd6c88a2044cc9f4d0103ab047d17487742c"
+    },
+    {
+      "path": "crates/vault_core/src/storage.rs",
+      "sha256": "ee10c64288eb9cab726e432e79b3714e39b4cc23432e7a73ed1fed37e272ed6a",
+      "r24_sha256": "ee10c64288eb9cab726e432e79b3714e39b4cc23432e7a73ed1fed37e272ed6a"
+    },
+    {
+      "path": "crates/vault_ffi/Cargo.toml",
+      "sha256": "64e09bbd1170c19e0d6257541105806e30ea2f7d7f78fc392f8dadde519fbc48",
+      "r24_sha256": "64e09bbd1170c19e0d6257541105806e30ea2f7d7f78fc392f8dadde519fbc48"
+    },
+    {
+      "path": "crates/vault_ffi/src/lib.rs",
+      "sha256": "31970c7660314a8faba60af2f1483d88153c5ebc31947fea79e1413f9c2cf8d3",
+      "r24_sha256": "31970c7660314a8faba60af2f1483d88153c5ebc31947fea79e1413f9c2cf8d3"
+    },
+    {
+      "path": "crates/wallet_ffi/Cargo.toml",
+      "sha256": "e06464f2e6af96bc358bc3d7a9ddf5bf027760886dfc014b1bef564f1b75d304",
+      "r24_sha256": "e06464f2e6af96bc358bc3d7a9ddf5bf027760886dfc014b1bef564f1b75d304"
+    },
+    {
+      "path": "crates/wallet_ffi/src/bitcoin_api.rs",
+      "sha256": "c5ec1b2906107ae141205839b518d493d61dbc6e4965065c1450347a21ffb71c",
+      "r24_sha256": "c5ec1b2906107ae141205839b518d493d61dbc6e4965065c1450347a21ffb71c"
+    },
+    {
+      "path": "crates/wallet_ffi/src/lib.rs",
+      "sha256": "d17aa39a6c8c1276aedca003cf17f43f1abec647f9a0c350ba2f2b5b8befd521",
+      "r24_sha256": "d17aa39a6c8c1276aedca003cf17f43f1abec647f9a0c350ba2f2b5b8befd521"
+    }
+  ],
+  "libraries": [
+    {
+      "path": "apps/vault/android/app/src/main/jniLibs/arm64-v8a/libvault_ffi.so",
+      "sha256": "bf4ea2a8da893df318aa9555250c0a5ebb8080a61f06b310919cd13ffcf8929c",
+      "r24_sha256": "bf4ea2a8da893df318aa9555250c0a5ebb8080a61f06b310919cd13ffcf8929c",
+      "bytes": 3970880
+    },
+    {
+      "path": "apps/vault/android/app/src/main/jniLibs/x86_64/libvault_ffi.so",
+      "sha256": "ce95e75cf027be6a1a03f7f97525eafef27be29b1a359f7025193c6cad798db7",
+      "r24_sha256": "ce95e75cf027be6a1a03f7f97525eafef27be29b1a359f7025193c6cad798db7",
+      "bytes": 4016448
+    },
+    {
+      "path": "apps/wallet/android/app/src/main/jniLibs/arm64-v8a/libwallet_ffi.so",
+      "sha256": "1e75c40670e59159a3ec0d00c1d47d10c3d2c48150f0daf44040d4b599ce7ff9",
+      "r24_sha256": "1e75c40670e59159a3ec0d00c1d47d10c3d2c48150f0daf44040d4b599ce7ff9",
+      "bytes": 3308256
+    },
+    {
+      "path": "apps/wallet/android/app/src/main/jniLibs/x86_64/libwallet_ffi.so",
+      "sha256": "4d971c1cd93ac50d7f3bc9d6ca35e45958560be0e60b04a5e634cba86618d6ae",
+      "r24_sha256": "4d971c1cd93ac50d7f3bc9d6ca35e45958560be0e60b04a5e634cba86618d6ae",
+      "bytes": 3403664
+    }
+  ],
+  "restriction": "Reuse only unchanged Rust/ABI inputs; fresh final APK/AAB native, ELF and export audits still mandatory."
+}

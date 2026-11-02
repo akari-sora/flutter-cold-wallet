@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "candidate": "r20",
+  "source_commit": "70d56e8fd2cf5de6f8746bc9e173e622500a0e2b",
+  "scope": "Sanitized readback of existing artifacts; no build, signing, or device identifiers",
+  "signature_exclusion": "META-INF signature files (*.SF, *.RSA, *.DSA, *.EC, MANIFEST.MF)",
+  "artifacts": [
+    {
+      "app": "wallet",
+      "format": "apk",
+      "sha256": "d911faf99e4edda8f3aaedf38c80e6cb104fc909448f34f4e5c67aba6ed64a73",
+      "non_signature_entry_count": 403,
+      "non_signature_entries_identical": true,
+      "apksigner_verified": true,
+      "zipalign_verified": true,
+      "before_signing_sha256": "38b0547b9add9310b915d5f9d97aedcf68e01cf993ce95c4914c5071242d2add",
+      "non_signature_entry_manifest_sha256": "75e667d633d4ef5d635656b3b91204a8a270ea39f192265572a578eccbec7db9"
+    },
+    {
+      "app": "wallet",
+      "format": "aab",
+      "sha256": "0359f7eadf82ad3a78e4687e6e76b2ded5f2e36df8ff591b6d0b5ef3663a2083",
+      "non_signature_entry_count": 414,
+      "non_signature_entries_identical": true,
+      "jarsigner_verified": true,
+      "before_signing_sha256": "815f24fa25fc638edad39faef0198e1b821b141c2214de285549950b3263c0a7",
+      "non_signature_entry_manifest_sha256": "687f2a429c4d1ef355d78143a539b2ec34b442eb89538c80fd424c0df99d901a"
+    },
+    {
+      "app": "vault",
+      "format": "apk",
+      "sha256": "5f74983e043e32db06b8e461a4c9055df4cac523853a7d005847930be7bd9aef",
+      "non_signature_entry_count": 399,
+      "non_signature_entries_identical": true,
+      "apksigner_verified": true,
+      "zipalign_verified": true,
+      "before_signing_sha256": "540526d90c6baf678084f70aeb14033ef27fe9eebc21ed20e9de7af038d53b93",
+      "non_signature_entry_manifest_sha256": "14f377bb69170d2e91ec744ee49762ad23307c4a3736c5d8d1829a56d06f0e88"
+    },
+    {
+      "app": "vault",
+      "format": "aab",
+      "sha256": "9151ca1a53760b610c037cff8c3dd2029dfd43d95dd73ccbcb1a5cace4ec61ac",
+      "non_signature_entry_count": 410,
+      "non_signature_entries_identical": true,
+      "jarsigner_verified": true,
+      "before_signing_sha256": "ebb1bd15549479c90c550ff0c50f4119af136eef8c3ead61cd3dc3414cca9539",
+      "non_signature_entry_manifest_sha256": "3c0cd02f11259f9d03a85f1d57f9d642923ff2ec4b949d91e4a291a02c71f0c1"
+    }
+  ],
+  "release_checks": {
+    "verify_qr_apks": "PASS",
+    "verify_play_bundle": "PASS",
+    "temporary_signer_split_zipalign": {
+      "wallet_generated_apks": 85,
+      "vault_generated_apks": 85,
+      "all_16k_zipalign": "PASS",
+      "signer_scope": "Throwaway signer for alignment checks only; not Play app signing evidence"
+    }
+  },
+  "source_provenance": {
+    "source_commit": "70d56e8fd2cf5de6f8746bc9e173e622500a0e2b",
+    "manifest_sha256": "37e2a3279e4ebab803da533e4d348692bf3c085bae0c6596bc96ed6b52fe7993",
+    "manifest_matches_original_audit_pin": true,
+    "build_source_status": "",
+    "tracked_file_count": 492,
+    "all_tracked_file_hashes_match_commit": true,
+    "extra_machine_configuration_files": [
+      "apps/vault/android/local.properties",
+      "apps/wallet/android/local.properties"
+    ],
+    "missing_tracked": [],
+    "native_provenance": "Fresh locked offline Cargo builds from this source snapshot",
+    "native_features": "--no-default-features",
+    "android_rustflags": "-C link-arg=-Wl,-z,max-page-size=16384 -C link-arg=-Wl,-z,common-page-size=16384"
+  },
+  "entry_manifest_digest_format": "SHA-256 of UTF-8 JSON mapping ZIP entry path to {bytes,sha256}, with sort_keys=true and separators=(comma,colon); signature entries excluded as specified above.",
+  "host_validation": {
+    "platform": "macOS arm64",
+    "source_commit": "70d56e8fd2cf5de6f8746bc9e173e622500a0e2b",
+    "native_libraries": "Fresh locked offline Cargo host build",
+    "rust_workspace_tests_passed": 144,
+    "flutter_tests_passed": {
+      "design_system": 38,
+      "qr_ui": 55,
+      "public_models": 267,
+      "wallet": 235,
+      "vault": 158
+    },
+    "flutter_tests_total": 753,
+    "flutter_analyze_packages_passed": 5,
+    "python_release_checks_passed": 189,
+    "python_release_checks_skipped": 1,
+    "scope": "Host tests only; artifact and emulator readbacks recorded separately"
+  }
+}

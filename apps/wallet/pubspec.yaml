@@ -1,0 +1,28 @@
+name: wallet
+description: Watch-only network-enabled cold wallet companion (com.coldwallet.watch). Strictly zero private key and zero signing code.
+version: 1.2.1+10
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+  flutter: ">=3.29.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.1.2
+  public_models:
+    path: ../../packages/public_models
+  design_system:
+    path: ../../packages/design_system
+  qr_ui:
+    path: ../../packages/qr_ui
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,19 @@
+name: design_system
+description: Offline pure UI components for mobile cold wallet (no telemetry, no analytics, no remote fonts).
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  public_models:
+    path: ../public_models
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0

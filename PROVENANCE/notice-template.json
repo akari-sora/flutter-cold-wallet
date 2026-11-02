@@ -1,0 +1,6 @@
+{
+  "source": "previously verified r24 corresponding-source draft archive",
+  "archive_sha256": "6c3381f021a51470b28ba5b91407b12a61912b2a8267b77b00d88f6f61cd91b5",
+  "condition": "Cargo.lock byte-identical",
+  "notice_files_copied": 265
+}

@@ -1,0 +1,9 @@
+# Python packages for the host tests under tests/ and the helpers under tools/.
+# Install with: python3 -m pip install -r tests/requirements.txt
+pytest
+cbor2
+pycryptodome
+bip_utils==2.10.0
+eth-utils
+eth-abi
+coincurve

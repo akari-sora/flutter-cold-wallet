@@ -1,0 +1,19 @@
+[package]
+name = "ur_adapter"
+version = "0.1.0"
+edition = "2021"
+license.workspace = true
+description = "Bounded CBOR parser, Luby Transform fountain reassembly, and Keystone UR protocol adapter"
+
+[dependencies]
+public_core = { path = "../public_core" }
+ur = "=0.5.2"
+ciborium = "=0.2.2"
+tiny-keccak = { version = "=2.0.2", features = ["keccak"] }
+hex = "0.4.3"
+thiserror = "2.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dev-dependencies]
+secp256k1 = { version = "=0.33.1", features = ["recovery", "global-context", "alloc"] }

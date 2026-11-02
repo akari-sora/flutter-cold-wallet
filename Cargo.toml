@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/public_core",
+    "crates/ur_adapter",
+    "crates/nfc_protocol",
+    "crates/signer_router",
+    "crates/vault_core",
+    "crates/vault_ffi",
+    "crates/wallet_ffi",
+    "tools/okx_probe",
+    "tools/reference_oracle",
+]
+
+[workspace.package]
+license = "AGPL-3.0-or-later"

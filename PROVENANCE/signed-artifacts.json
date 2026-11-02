@@ -1,0 +1,50 @@
+{
+  "artifacts": [
+    {
+      "app": "vault",
+      "certificate_sha256": "eb8dd99564bfbd693e90688f1150fc8df0ce7d692d4280e5513bd70501e9cc7e",
+      "input_sha256": "b0b9b3f233eab5ac259bcd19ffb4ea31c0ecf1e32bdca1267f4af3129ae9d91b",
+      "kind": "aab",
+      "package": "com.coldwallet.vault",
+      "signed_bytes": 45757883,
+      "signed_filename": "fcw-vault-1.2.1-10-upload-signed.aab",
+      "signed_sha256": "bf7ab221814262ec2bf0998e24d9b482f758efdeb7cde70c38b2619fb6bdeb77",
+      "version": "1.2.1+10"
+    },
+    {
+      "app": "vault",
+      "certificate_sha256": "146e90c96c54e21c2b74fd33f6124cdcebaf97b367adc3f634c6f2c36bcfb847",
+      "input_sha256": "af3bc227d0590d97591bc79bd89141ef8fa4b72e3370c1361da7e99dbc07c188",
+      "kind": "apk",
+      "package": "com.coldwallet.vault",
+      "signed_bytes": 55950038,
+      "signed_filename": "fcw-vault-1.2.1-10-app-signed.apk",
+      "signed_sha256": "839228a20e6225d38e76872eddb04df53b46f8eecba6c2d70277c4f0bf5aad1d",
+      "version": "1.2.1+10"
+    },
+    {
+      "app": "wallet",
+      "certificate_sha256": "d3811cdf51e01d2fa03fdf2e447525b85b165e61b995f311832952cde7586868",
+      "input_sha256": "0fa93c25d8c6765374874fe3fe4db1666dc66d303ff7d29ac45dc4efed202c09",
+      "kind": "aab",
+      "package": "com.coldwallet.watch",
+      "signed_bytes": 45727830,
+      "signed_filename": "fcw-watch-1.2.1-10-upload-signed.aab",
+      "signed_sha256": "82380059189f5ce9dfb71bb073c43f739346416271c1a97744efa7520ccbaaa7",
+      "version": "1.2.1+10"
+    },
+    {
+      "app": "wallet",
+      "certificate_sha256": "6a5daf8cfd5059879287e3ad2174257a0d3d0ffd5d5759597006b56a4ab155fc",
+      "input_sha256": "946c2a54459d88d5dcfb88dbbd73928bb80ed2dd79be6de06480518f5dfaa677",
+      "kind": "apk",
+      "package": "com.coldwallet.watch",
+      "signed_bytes": 56536072,
+      "signed_filename": "fcw-watch-1.2.1-10-app-signed.apk",
+      "signed_sha256": "6ab56c63ce2625fd4d4f8b649f86dcba2b5eba036a50e921a51ff4a7d1c40524",
+      "version": "1.2.1+10"
+    }
+  ],
+  "source_commit": "8352361278a60e92d588070788724dc197cd6713",
+  "version": "1.2.1+10"
+}

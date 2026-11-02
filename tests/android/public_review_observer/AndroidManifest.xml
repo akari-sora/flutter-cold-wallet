@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coldwallet.test.publicreviewobserver"
+    android:versionCode="1" android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="36" />
+    <application android:label="Public review observer (test only)"
+        android:debuggable="true" android:testOnly="true"
+        android:allowBackup="false" android:fullBackupContent="false"
+        android:usesCleartextTraffic="false" />
+    <instrumentation
+        android:name="com.coldwallet.test.publicreviewobserver.PublicReviewObserver"
+        android:targetPackage="com.coldwallet.test.publicreviewobserver"
+        android:functionalTest="false" android:handleProfiling="false" />
+</manifest>
